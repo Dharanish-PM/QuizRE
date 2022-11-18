@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    <div class="container">
+         <div class="left">
+            <h3>Questions: </h3>
+            <p class="question">Question comes here</p>
+            <ul class="options">
+                <li >
+                    <input type="radio" name="answer" id="ans1" class="answer">
+                    <label for="ans1" id="option1">Answer Option</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" id="ans2" class="answer">
+                    <label for="ans2" id="option2">Answer Option</label>
+
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans3" class="answer">
+                    <label for="ans3" id="option3">Answer Option</label>
+                
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans4" class="answer">
+                    <label for="ans4" id="option4">Answer Option</label>
+                
+                </li>
+            </ul>
+            <div class="controllers">
+                    <button class="btn" id="prev">PREV</button>
+                    <button class="btn" id="next">NEXT</button>
+            </div>
+         </div>
+         <div class="right">
+              <div class="countdown"></div>
+              <div class="indicate visible">Time is gonna END!!</div>
+            <div class="grid">
+                <a href="" id="0"  onclick="first(this.id)" ><div class="q q0  "> 1</div></a>
+                <a href="" id="1" onclick="first(this.id)" ><div class="q q1"> 2</div></a>
+                <a href="" id="2" onclick="first(this.id)" ><div class="q q2"> 3</div></a>
+                <a href="" id="3" onclick="first(this.id)" ><div class="q q3"> 4</div></a>
+                <a href="" id="4" onclick="first(this.id)" ><div class="q q4"> 5</div></a>
+                <a href="" id="5" onclick="first(this.id)" ><div class="q q5"> 6</div></a>
+                <a href="" id="6" onclick="first(this.id)" ><div class="q q6"> 7</div></a>
+                <a href="" id="7" onclick="first(this.id)" ><div class="q q7"> 8</div></a>
+                <a href="" id="8" onclick="first(this.id)" ><div class="q q8"> 9</div></a>
+                <a href="" id="9" onclick="first(this.id)" ><div class="q q9"> 10</div></a>
+                <a href="" id="10" onclick="first(this.id)" ><div class="q q10"> 11</div></a>
+                <a href="" id="11" onclick="first(this.id)" ><div class="q q11"> 12</div></a>
+                <a href="" id="12" onclick="first(this.id)" ><div class="q q12"> 13</div></a>
+                <a href="" id="13" onclick="first(this.id)" ><div class="q q13"> 14</div></a>
+                <a href="" id="14" onclick="first(this.id)" ><div class="q q14"> 15</div></a>
+                <a href="" id="15" onclick="first(this.id)" ><div class="q q15"> 16</div></a>
+                <a href="" id="16" onclick="first(this.id)" ><div class="q q16"> 17</div></a>
+                <a href="" id="17" onclick="first(this.id)" ><div class="q q17"> 18</div></a>
+                <a href="" id="18" onclick="first(this.id)" ><div class="q q18"> 19</div></a>
+                <a href="" id="19" onclick="first(this.id)" ><div class="q q19"> 20</div></a>
+                <a href="" id="20" onclick="first(this.id)" ><div class="q q20"> 21</div></a>
+                <a href="" id="21" onclick="first(this.id)" ><div class="q q21"> 22</div></a>
+                <a href="" id="22" onclick="first(this.id)" ><div class="q q22"> 23</div></a>
+                <a href="" id="23" onclick="first(this.id)" ><div class="q q23"> 24</div></a>
+                <a href="" id="24" onclick="first(this.id)" ><div class="q q24"> 25</div></a>    
+            </div>
+            <button class="btn" id="submit" type="submit">Submit</button>
+         </div>    
+    </div>
+    <div class="result visible">
+        <h1>Your Score is <span class="res">10</span></h1>
+    </div>
+    
+    
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>

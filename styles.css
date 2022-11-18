@@ -1,0 +1,82 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    width: 50%;
+    box-shadow: 2px 1px 5px 1px rgba(1,1,1,0.7);
+    padding: 10px;
+
+}
+.left,.right{
+    width: 50%;
+}
+.left{
+    border: 20px solid beige;
+    padding: 10px;
+}
+.countdown{
+box-shadow: 2px 1px 5px 1px rgba(1, 1, 1, 0.7);
+padding: 3px 20px;
+font-size: 20px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.right>*{
+    margin-top: 10px;
+}
+.controllers {
+    display: flex;
+    justify-content: space-between;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background-color: white;
+     gap:4px;
+}
+.q{
+    background-color: black;
+    padding: 10px 15px;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+.btn{
+    border: 2px solid gray;
+    border-radius: 10px 20px;
+    padding: 5px 20px;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.result{
+    margin: 20px;
+    padding: 30px;
+    border: 20px solid black;
+    box-shadow: 2px 1px 5px 1px rgba(1, 1, 1, 0.7);
+}
+.visible{
+    display: none;
+}
+.glow{
+    background-color: rgba(1,1,1,0.5);
+    padding: 10px 15px;
+    color: white;  
+}
+.indicate{
+    background-color: red;
+    color: white;
+    padding: 3px;
+}
